@@ -239,7 +239,7 @@ ImageProcessorApplicationMT and an
 image processor class called ImageProcessorMT. These can simply
 copies of the original classes at first, if you prefer to work that way.
 
-## Exercise 1: The Thread Pool [50% of the marks]
+## The Thread Pool
 
 For this exercise you should create your own
 implementation of a  *thread pool* . In
@@ -283,9 +283,8 @@ getter to ImageProcessorMT that signals that the run method has
 terminated, hence the result is available, and the thread pool can now run
 another thread (if the waiting list was not empty).
 
-## Exercise 2: Parallelising ImageProcessorMT [50%
+## Parallelising ImageProcessorMT
 
-of the marks]
 
 For this exercise you will take
 the existing ImageProcessorMT class and parallelise the filtering and
